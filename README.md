@@ -16,7 +16,7 @@ This module can help you create logging in your scripts. You write **write-log "
 - [Release Notes](#Release-Notes)
 
 # Install module from the PowerShell gallery
-Install [BenLPed.ScriptLogging](https://www.powershellgallery.com/packages/BenLPed.Scriptlogging/1.10.0.3) from PSGallery:
+Install [BenLPed.ScriptLogging](https://www.powershellgallery.com/packages/BenLPed.Scriptlogging/1.10.0.4) from PSGallery:
 
 ##### Import the module
 ```PowerShell
