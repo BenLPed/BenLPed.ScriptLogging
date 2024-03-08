@@ -47,6 +47,8 @@ It is possible to create a very long error message, as there is room to display 
 ![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/Description.png?raw=true)
 
 
+![Test](Images/LineColor.png)
+
 
 ## How do I get started using this script
 
