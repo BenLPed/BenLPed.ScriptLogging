@@ -32,7 +32,6 @@ It then stores the default information, so that there is no doubt when a new run
 
 When you want to add something to the log, you write **write-log "what needs to happen or what happens"** and it is added to the log file. By default, it automatically sets 1 after "Text", but if you want to draw attention to something, you can write 2 numbers and the error text will turn yellow. If you write a number 3, the text turns red, it is only used in case of error.
 
-![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/Write-Log.png?raw=true)
 
 | Value | Color     |
 |------:|-----------|
