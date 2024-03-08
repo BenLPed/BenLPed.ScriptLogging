@@ -12,7 +12,7 @@
 RootModule = 'BenLPed.Scriptlogging.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.10.0.2'
+ModuleVersion = '1.10.0.3'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
