@@ -2,7 +2,7 @@
 
 This module can help you create logging in your scripts. You write **write-log "what needs to happen or what happens"**. You can follow along live, which makes it easy to see what is happening. It also records which user runs the script, which line of the script is executed and the time. So if something goes wrong, it's easy to find out what went wrong.
 
-![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/fullPic.png?raw=true)
+![alt text](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png?raw=true)
 
 
 
@@ -26,7 +26,7 @@ It checks if the folder is created, otherwise it is created. It then checks whet
 It then stores the default information, so that there is no doubt when a new run has started, especially if it runs several times on the same day.
 
 
-![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/Start-Log.png?raw=true)
+![alt text](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/Start-Log.png?raw=true)
 
 ### Write-Log
 
@@ -40,12 +40,12 @@ When you want to add something to the log, you write **write-log "what needs to 
 |      2| Yellow    |
 |      3| Red       |
 
-![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/LineColor.png?raw=true)
+![alt text](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/LineColor.png?raw=true)
 
 
 It is possible to create a very long error message, as there is room to display it if you use (THIS program)
 
-![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/Description.png?raw=true)
+![alt text](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/ImagesDescription.png?raw=true)
 
 
 
