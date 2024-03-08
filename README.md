@@ -2,16 +2,16 @@
 
 This module can help you create logging in your scripts. You write **write-log "what needs to happen or what happens"**. You can follow along live, which makes it easy to see what is happening. It also records which user runs the script, which line of the script is executed and the time. So if something goes wrong, it's easy to find out what went wrong.
 
-![Complet view of Logfil](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png?raw=true)
+![Complet view of Logfil](https://github.com/BenLPed/BenLPed.Scriptlogging/Images/fullPic.png?raw=true)
 
-![Complet view of Logfil](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png)
+![Complet view of Logfil](https://github.com/BenLPed/BenLPed.Scriptlogging/Images/fullPic.png)
 
-<img alt="YOUR-ALT-TEXT" src="(https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png)">
+<img alt="YOUR-ALT-TEXT" src="(https://github.com/BenLPed/BenLPed.Scriptlogging/Images/fullPic.png)">
 
-![alt text](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png "Logo Title Text 1")
+![alt text](https://github.com/BenLPed/BenLPed.Scriptlogging/Images/fullPic.png "Logo Title Text 1")
 
 ![alt text][logo]
-[logo]: https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png "Logo Title Text 2"
+[logo]: https://github.com/BenLPed/BenLPed.Scriptlogging/Images/fullPic.png "Logo Title Text 2"
 
 
 ## What commands do I get, how are they used
