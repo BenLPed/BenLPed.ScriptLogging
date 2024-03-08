@@ -12,8 +12,8 @@ This module can help you create logging in your scripts. You write **write-log "
 - [Usage and Examples](#Usage-and-Examples)
   - [Start-Log](#Start-Log)
   - [Write-Log](#Write-Log)
+- [Software to view the .log fil](#Software-to-view-the-.log-fil)
 - [Release Notes](#Release-Notes)
-
 
 # Install module from the PowerShell gallery
 Install [BenLPed.ScriptLogging](https://www.powershellgallery.com/packages/BenLPed.Scriptlogging/1.10.0.3) from PSGallery:
@@ -46,7 +46,6 @@ Start-Log "\\LogShare$\ADUsers" "ListOfAdUsers" "BLIT" "Find all users in our AD
 
 ![alt text](Images/Start-Log.png?raw=true)
 
-
 ### Write-Log
 When you want to add something to the log, you write **write-log "what needs to happen or what happens"** and it is added to the log file. By default, it automatically sets LogLevet to 1, but if you want to draw attention to something, you can change LogLevel to 2 and the log text will turn yellow. If LogLevel is set to 3, the text turns red, it cut bee used in case of error.
 
@@ -54,12 +53,9 @@ When you want to add something to the log, you write **write-log "what needs to 
 Write-Log -Message "The information you want in your log" -LogLevel 1
 ```
 
-
 ```PowerShell
 Write-Log -Message "The information you want in your log"
 ```
-
-
 
 | Value | Color     |
 |------:|-----------|
@@ -70,11 +66,13 @@ Write-Log -Message "The information you want in your log"
 
 ![alt text](Images/LineColor.png?raw=true)
 
-
 It is possible to create a very long error message, as there is room to display it if you use (THIS program)
 
 ![alt text](Images/Description.png?raw=true)
 
+# Software to view the .log fil
+I use CMTrace to view the .log fils, I have a copy of the program her.
+![CMTrace](Software/ConfigMgrTools.msi?raw=true)
 
 # Release Notes
 v1.10.0.4
