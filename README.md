@@ -7,3 +7,7 @@ Eg. in a try-catch, you could put a 3 number after the text in the catch if it i
 
 Start-log -Path <> -Filename <> to start logging
 Write-Log "The tekse you want to log" -Level 1
+
+
+
+![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/fullPic.png?raw=true)
