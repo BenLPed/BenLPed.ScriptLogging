@@ -5,6 +5,8 @@ This module can help you create logging in your scripts. You write **write-log "
 ![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/fullPic.png?raw=true)
 
 
+
+
 ## What commands do I get, how are they used
 
 You get the following commands:
