@@ -2,9 +2,9 @@
 
 This module can help you create logging in your scripts. You write **write-log "what needs to happen or what happens"**. You can follow along live, which makes it easy to see what is happening. It also records which user runs the script, which line of the script is executed and the time. So if something goes wrong, it's easy to find out what went wrong.
 
-![Complet view of Logfil](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png?raw=true)
+![Complet view of Logfil](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/fullPic.png?raw=true)
 
-![alt text](https://github.com/BenLPED/BenLPed.Scriptlogging/blob/main/fullPic.png?raw=true)
+![alt text](https://github.com/BenLPed/BenLPed.Scriptlogging/blob/main/fullPic.png?raw=true)
 
 
 ![Complet view of Logfil](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png)
