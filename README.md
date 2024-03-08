@@ -5,9 +5,33 @@ This module can help you create logging in your scripts. You write **write-log "
 ![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/fullPic.png?raw=true)
 
 
-## Command
+## What commands do I get, how are they used
+
+You get the following commands:
+- Start-Log
+- Write-Log
+
+### Start-Log
+
+You started logging by using this command. Here you say what the script should be called, where it should be located, which company, description of what the script does, number of days the log files should be saved
+
+.EXAMPLE
+Start-Log -FilePath "\\LogShare$\ADUsers" -FileName "ListOfAdUsers" -Company "BLIT" -Description "Find all users in our AD that is Enabled" -DeletedLogDays "30"
+
+Start-Log "\\LogShare$\ADUsers" "ListOfAdUsers" "BLIT" "Find all users in our AD that is Enabled" "30"
+
+It checks if the folder is created, otherwise it is created. It then checks whether the file exists, otherwise it is created.
+It then stores the default information, so that there is no doubt when a new run has started, especially if it runs several times on the same day.
+
+
+![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/Start-Log.png?raw=true)
 
 ### Write-Log
+
+When you want to add something to the log, you write **write-log "what needs to happen or what happens"** and it is added to the log file. By default, it automatically sets 1 after "Text", but if you want to draw attention to something, you can write 2 numbers and the error text will turn yellow. If you write a number 3, the text turns red, it is only used in case of error.
+
+![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/Write-Log.png?raw=true)
+
 | Value | Color     |
 |------:|-----------|
 |  Blank| Nothing   |
@@ -15,17 +39,18 @@ This module can help you create logging in your scripts. You write **write-log "
 |      2| Yellow    |
 |      3| Red       |
 
+![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/LineColor.png?raw=true)
+
+
+It is possible to create a very long error message, as there is room to display it if you use (THIS program)
+
+![alt text](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/Description.png?raw=true)
 
 
 
+## How do I get started using this script
 
+You can download it from [Powershellgallery.com](https://www.powershellgallery.com/packages/BenLPed.Scriptlogging) so you always get the latest version.
 
-
-##
-This module helps you create a log in your scripts. you can follow along live and it is possible to put color in code, depending on what you want.
-By default it generates a file (dd.mm.yyyy - filename) in the desired folder. It can also be a network drive.
-if you want something in the log to draw attention to yourself, you can put a 2 number after the text, then the text will turn yellow.
-Eg. in a try-catch, you could put a 3 number after the text in the catch if it is an error, as the text will turn red.
-
-Start-log -Path <> -Filename <> to start logging
-Write-Log "The tekse you want to log" -Level 1
+The command you type is
+Install-Module -Name BenLPed.Scriptlogging
