@@ -4,17 +4,6 @@ This module can help you create logging in your scripts. You write **write-log "
 
 ![Complet view of Logfil](https://github.com/BenLPed/Images/blob/main/BenLPed.Scriptlogging/fullPic.png?raw=true)
 
-![alt text](https://github.com/BenLPed/BenLPed.Scriptlogging/blob/main/fullPic.png?raw=true)
-
-
-![Complet view of Logfil](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png)
-
-<img alt="YOUR-ALT-TEXT" src="(https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png)">
-
-![alt text](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png "Logo Title Text 1")
-
-![alt text][logo]
-[logo]: https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png "Logo Title Text 2"
 
 
 ## What commands do I get, how are they used
