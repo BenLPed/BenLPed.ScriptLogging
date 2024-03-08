@@ -4,7 +4,7 @@ This module can help you create logging in your scripts. You write **write-log "
 
 ![Complet view of Logfil](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png?raw=true)
 ![Complet view of Logfil](https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png)
-
+<img alt="YOUR-ALT-TEXT" src="(https://github.com/BenLPed/BenLPed.Scriptlogging/tree/main/Images/fullPic.png)">
 
 
 
