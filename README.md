@@ -77,6 +77,9 @@ It is possible to create a very long error message, as there is room to display 
 
 
 # Release Notes
+v1.10.0.4
+- Fix Documentation
+
 v1.10.0.3
 - Fix Documentation
 
