@@ -47,9 +47,6 @@ It is possible to create a very long error message, as there is room to display 
 ![alt text](Images/Description.png?raw=true)
 
 
-![Test](Images/LineColor.png)
-
-
 ## How do I get started using this script
 
 You can download it from [Powershellgallery.com](https://www.powershellgallery.com/packages/BenLPed.Scriptlogging) so you always get the latest version.
