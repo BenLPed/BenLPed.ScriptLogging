@@ -47,9 +47,15 @@ It is possible to create a very long error message, as there is room to display 
 ![alt text](Images/Description.png?raw=true)
 
 
-## How do I get started using this script
 
-You can download it from [Powershellgallery.com](https://www.powershellgallery.com/packages/BenLPed.Scriptlogging) so you always get the latest version.
+## How to install and get help
 
-The command you type is
-Install-Module -Name BenLPed.Scriptlogging
+Install [BenLPed.ScriptLogging from PSGallery](https://www.powershellgallery.com/packages/BenLPed.Scriptlogging):
+
+    Install-Module -Name BenLPed.Scriptlogging
+
+Import the module and get the conceptual help:
+
+    Import-Module -Name BenLPed.Scriptlogging
+    help about BenLPed.Scriptlogging
+

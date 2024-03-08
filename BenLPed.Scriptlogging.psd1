@@ -30,11 +30,7 @@ CompanyName = ''
 Copyright = '(c) Benni Ladevig Pedersen. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'By starting a script using the start-log command, you tell where the log file should be located, what it should be called, 
-and possibly whether it should delete old log files.`
-Every time you have created some code that you thought should be logged, you use write-log together with the description you want. 
-You can also add a fave code. 1 = Normal (1 is default), 2 = if the text should be yellow, to show something is not normal, 
-but not an error. 3 = Error. It could e.g. is used in a try-catch, so when the catch comes into use, the error message will be 3 and thereby you know that it has failed.'
+Description = 'This module can help you create logging in your scripts. You write write-log "what needs to happen or what happens". You can follow along live, which makes it easy to see what is happening. It also records which user runs the script, which line of the script is executed and the time. So if something goes wrong, its easy to find out what went wrong.'
 
 # Minimum version of the PowerShell engine required by this module
 PowerShellVersion = '5.0.0'
@@ -99,16 +95,13 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = @(
-            'Logging',
-            'Logger',
-            'Logs')
+        Tags = @('Logging','Logger','Logs')
 
         # A URL to the license for this module.
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://www.powershellgallery.com/packages/BenLPed.Scriptlogging'
 
         # A URL to an icon representing this module.
         # IconUri = ''
