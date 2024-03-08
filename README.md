@@ -48,6 +48,7 @@ It is possible to create a very long error message, as there is room to display 
 
 
 
+
 ## How to install and get help
 
 Install [BenLPed.ScriptLogging from PSGallery](https://www.powershellgallery.com/packages/BenLPed.Scriptlogging):
@@ -57,6 +58,4 @@ Install [BenLPed.ScriptLogging from PSGallery](https://www.powershellgallery.com
 Import the module and get the conceptual help:
 
     Import-Module -Name BenLPed.Scriptlogging
-
-    help about BenLPed.Scriptlogging
 
