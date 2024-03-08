@@ -101,10 +101,10 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = @('Logging','Logger','Logs')
+        Tags = @('Logging','Logger','Logs','ScriptLog')
 
         # A URL to the license for this module.
-        # LicenseUri = ''
+        LicenseUri = 'https://github.com/BenLPed/BenLPed.Scriptlogging/blob/main/LICENSE'
 
         # A URL to the main website for this project.
         ProjectUri = 'https://github.com/BenLPed/BenLPed.Scriptlogging/tree/1.10.0.4'
