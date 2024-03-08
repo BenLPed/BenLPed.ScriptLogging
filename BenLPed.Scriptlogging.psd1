@@ -30,7 +30,9 @@ CompanyName = ''
 Copyright = '(c) Benni Ladevig Pedersen. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'This module can help you create logging in your scripts. You write write-log "what needs to happen or what happens". You can follow along live, which makes it easy to see what is happening. It also records which user runs the script, which line of the script is executed and the time. So if something goes wrong, its easy to find out what went wrong.'
+Description = 'This module can help you create logging in your scripts. You can follow along live, which makes it easy to see what is happening. It also records which user runs the script, which line of the script is executed and the time. So if something goes wrong, it s easy to find out what went wrong.
+
+When you want to add something to the log, you write write-log "what needs to happen or what happens" and it is added to the log file. By default, it automatically sets 1 after "Text", but if you want to draw attention to something, you can write 2 numbers and the error text will turn yellow. If you write a number 3, the text turns red, it is only used in case of error.'
 
 # Minimum version of the PowerShell engine required by this module
 PowerShellVersion = '5.0.0'
