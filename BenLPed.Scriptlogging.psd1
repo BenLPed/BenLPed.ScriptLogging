@@ -16,7 +16,7 @@ RootModule = 'BenLPed.Scriptlogging.psm1'
     # Minor - new solutions, e.g. new cmdlets
     # Build - new features, e.g. new params
     # Revision - fixed bugs, typos, etc...
-ModuleVersion = '1.10.0.6'
+ModuleVersion = '1.10.0.7'
 
 # Supported PSEditions
 # CompatiblePSEditions = @('Desktop')
@@ -120,23 +120,26 @@ PrivateData = @{
 
         # ReleaseNotes of this module
         ReleaseNotes = '
-v1.10.0.6
-- Fix Bug - Function Missing
+        v1.10.0.7
+        - Fix Bug
 
-v1.10.0.5
-- Bug Fix
+        v1.10.0.6
+        - Fix Bug - Function Missing
 
-v1.10.0.4
-- Fix Documentation
+        v1.10.0.5
+        - Bug Fix
 
-v1.10.0.3
-- Fix Documentation
+        v1.10.0.4
+        - Fix Documentation
 
-v1.10.0.2
-- Fix Documentation
+        v1.10.0.3
+        - Fix Documentation
 
-v1.10.0.1
-- Rewrite whole script to module
+        v1.10.0.2
+        - Fix Documentation
+
+        v1.10.0.1
+        - Rewrite whole script to module
 '
 
         # Prerelease string of this module

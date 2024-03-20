@@ -47,14 +47,14 @@ function Start-Log {
          
         #################################################################################
         #
-        # Company    : $Company
-        # Software   : $Software
-        # Date       : $LogFilName
-        # Runs from  : $env:COMPUTERNAME.$env:USERDNSDOMAIN
-        # Authorized : $env:USERNAME
+        # Company       : $Company
+        # Description   : $Description
+        # Date          : $LogFilName
+        # Runs from     : $env:COMPUTERNAME.$env:USERDNSDOMAIN
+        # Authorized    : $env:USERNAME
         # 
-        # Location   : $FilePath
-        # Filename   : $LogFilName.log
+        # Location      : $FilePath
+        # Filename      : $LogFilName.log
         #    
         #################################################################################
 
@@ -85,19 +85,6 @@ function Start-Log {
         [int]$DeletedLogDays
     )
 
-<#
-    $FilePath       = "\\UNV_Fil.eucsj.net\ScriptLog$\Test" 
-    $FileName       = "testLog"
-    $Company        = "BLIT" 
-    $Description    = "Test log for test om module is working"
-    $DeletedLogDays = 10
-#>
-<#    
-    if ($FilePath -notmatch '.+?\\$') {
-        $FilePath += '\'
-    }
-#>
-
     $LogDate = Get-Date -Format yyyy-MM-dd
     $FileName = $LogDate + ' - ' + $FileName.Substring(0,1).ToUpper() + $FileName.Substring(1) + '.log'
 
@@ -123,7 +110,7 @@ function Start-Log {
         Write-Log "#################################################################################" 2
         Write-Log "#" 2
         Write-Log "# Company    : $Company" 2
-        Write-Log "# Software      : $Description" 2
+        Write-Log "# Description      : $Description" 2
         Write-Log "# Date             : $LogDate" 2
         Write-Log "# Runs from  : $env:COMPUTERNAME.$env:USERDNSDOMAIN" 2
         Write-Log "# Authorized : $env:USERNAME" 2
@@ -146,11 +133,8 @@ function Start-Log {
      
     if(-not($DeletedLogDays -eq "" -or $DeletedLogDays -eq "0")) {
 
-        # Finder dato for sletningsdato
         $Date = (Get-Date).Adddays(-$DeletedLogDays)
 
-        # Finder de logs der skal slettes og sletter dem
         Get-ChildItem -Path $FilePath | Where-Object { $_.LastWriteTime -le $Date} | Remove-item 
-
     }
 } # SLUT - function Start-Log

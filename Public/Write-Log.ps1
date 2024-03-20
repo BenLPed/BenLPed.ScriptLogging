@@ -50,7 +50,7 @@ function Write-Log {
         [string]$Message,
 
         [Parameter(Position=1, Mandatory=$false)]
-        [PSDefaultValue(Help='1 = Normal, 2 = yellow (Worring), 3 = Red (ERROR)')]
+        [PSDefaultValue(Help='1 = Normal, 2 = yellow (Warning), 3 = Red (ERROR)')]
         [ValidateSet(1, 2, 3)]
         [int]$LogLevel = 1
     )
@@ -59,8 +59,6 @@ function Write-Log {
     
     $LineFormat = $Message, $TimeGenerated, (Get-Date -Format MM-dd-yyyy), "$("$env:COMPUTERNAME.$env:USERDNSDOMAIN" | Split-Path -Leaf) - $($MyInvocation.ScriptName | Split-Path -Leaf):$($MyInvocation.ScriptLineNumber)", `
     $([System.Security.Principal.WindowsIdentity]::GetCurrent().Name), $LogLevel, $($pid)
-
-    # $Line = “<![LOG[$($Message)]LOG]!><time=`”$($Time)`” date=`”$($Date)`” component=`”$($Component)`” context=`”$($Context)`” type=`”$($Type)`” thread=`”$($StartDateTime)`” file=`”$($CurrentUser)`”>”
 
     $Line = '<![LOG[{0}]LOG]!><time="{1}" date="{2}" component="{3}" context="{4}" type="{5}" thread="{6}" file="" >'
 
