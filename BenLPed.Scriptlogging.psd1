@@ -16,7 +16,7 @@ RootModule = 'BenLPed.Scriptlogging.psm1'
     # Minor - new solutions, e.g. new cmdlets
     # Build - new features, e.g. new params
     # Revision - fixed bugs, typos, etc...
-ModuleVersion = '1.10.0.4'
+ModuleVersion = '1.10.0.6'
 
 # Supported PSEditions
 # CompatiblePSEditions = @('Desktop')
@@ -39,7 +39,7 @@ Description = 'This module can help you create logging in your scripts. You can 
 When you want to add something to the log, you write write-log "what needs to happen or what happens" and it is added to the log file. By default, it automatically sets 1 after "Text", but if you want to draw attention to something, you can write 2 numbers and the error text will turn yellow. If you write a number 3, the text turns red, it is only used in case of error.'
 
 # Minimum version of the PowerShell engine required by this module
-PowerShellVersion = '5.1.0.0'
+PowerShellVersion = '5.1'
 
 # Name of the PowerShell host required by this module
 # PowerShellHostName = ''
@@ -75,10 +75,10 @@ PowerShellVersion = '5.1.0.0'
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = @()
+FunctionsToExport = @('Start-Log', 'Write-Log')
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-CmdletsToExport = @('Start-Log', 'Write-Log')
+# CmdletsToExport = @()
 
 # Variables to export from this module
 VariablesToExport = '*'
@@ -101,19 +101,31 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = @('Logging','Logger','Logs','ScriptLog')
+        Tags = @(
+            'Logging',
+            'Logger',
+            'Logs',
+            'ScriptLog',
+            'Scripting'
+        )
 
         # A URL to the license for this module.
         LicenseUri = 'https://github.com/BenLPed/BenLPed.Scriptlogging/blob/main/LICENSE'
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/BenLPed/BenLPed.Scriptlogging/tree/1.10.0.4'
+        ProjectUri = 'https://github.com/BenLPed/BenLPed.Scriptlogging'
 
         # A URL to an icon representing this module.
         # IconUri = ''
 
         # ReleaseNotes of this module
         ReleaseNotes = '
+v1.10.0.6
+- Fix Bug - Function Missing
+
+v1.10.0.5
+- Bug Fix
+
 v1.10.0.4
 - Fix Documentation
 
