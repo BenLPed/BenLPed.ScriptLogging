@@ -75,6 +75,16 @@ I use CMTrace to view the .log fils, I have a copy of the program her.
 ![CMTrace](Software/ConfigMgrTools.msi?raw=true)
 
 # Release Notes
+
+v1.10.0.7
+- Fix Bug
+
+v1.10.0.6
+- Fix Bug - Function Missing
+
+v1.10.0.5
+- Bug Fix - Function Missing
+
 v1.10.0.4
 - Fix Documentation
 
