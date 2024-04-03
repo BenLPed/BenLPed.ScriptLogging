@@ -72,7 +72,7 @@ It is possible to create a very long error message, as there is room to display 
 
 # Software to view the .log fil
 I use CMTrace to view the .log fils, I have a copy of the program her.
-![CMTrace](Software/ConfigMgrTools.msi?raw=true)
+![CMTrace](https://learn.microsoft.com/en-us/configmgr/core/support/cmtrace)
 
 # Release Notes
 
