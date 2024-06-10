@@ -92,9 +92,10 @@ function Start-Log {
         if(-not(Test-Path $FilePath)) {
             New-Item $FilePath -Type Directory
         }
-    } catch {
-        Write-Error $_.Exception.Message
+    } catch [System.Exception] {
+        Write-Warning -Message "An error occurred when try to create a new Directory. Error message: $($_.Exception.Message)"; break
     } # SLUT - try {
+        
 
     $FilePathLog = Join-Path $FilePath $FileName
 
@@ -122,13 +123,9 @@ function Start-Log {
         Write-Log " " 
         Write-Log " "  
 
-    } catch {
-            Write-Error $_.Exception.Message
-            $Error01 = Error[0]
-            Write-Host "Fejlede: $Error01"
-            Write-Error "Fejlede: $Error01"
-            Throw New-Object System.FormatException 
-            Throw New-Object System.IO.IOException
+    } catch [System.Exception] {
+        
+            Write-Warning -Message "An error occurred when try to create head ribben for this script in log file. Error message: $($_.Exception.Message)"; break
     } # SLUT - try {
      
     if(-not($DeletedLogDays -eq "" -or $DeletedLogDays -eq "0")) {
